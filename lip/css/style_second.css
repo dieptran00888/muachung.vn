@@ -1,0 +1,211 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none}
+.wapper{
+    background: #f1f1f1;
+}
+
+.header{
+    overflow: hidden;
+    height: auto;
+    z-index: 1;
+    background-image: url("../img/pattern.jpg") ;   border-bottom: 4px solid #d8d6d3 ;
+}
+.header .logo{
+    float: left;
+    width: 18%;
+}
+.header .banner{
+    float: left;
+    width: 40%;
+}
+
+.header .header-right{
+    float: right;
+    width: 30%;
+}
+.search{
+    float: left;
+    padding-top: 175px;
+    margin-left: 80px;
+}
+.search input{width: 400px}
+/*Phần nav*/
+.col-md-3{
+    background: #fff;
+    border-top: 1px solid rgba(204, 204, 204, 0.50);
+    text-align: center;
+    box-shadow: 0 3px 3px #cccccc;
+    width: 18%;
+    margin-right: 10px;
+}
+nav{
+    height: auto;
+    width: 100%;
+    left: 184px;
+    z-index: 9999;
+
+}
+.fixed {
+    position:fixed; box-shadow: 0 3px 3px #cccccc;
+    background: #fff;max-width: 15%;left: 8%;
+}
+.fixed .ul_navbar{
+    padding: 0 15px;
+}
+#navbar{
+    float: left;
+    width: 100%;
+    background: #fff;
+    /*border-top: 1px solid rgba(204, 204, 204, 0.50);*/
+    text-align: center;
+}
+#navbar li{
+    border-top: 1px solid rgba(204, 204, 204, 0.50);
+    height: 30px;line-height: 30px;
+}
+#navbar ul li:hover{
+    background-color:#f1f1f1 ;
+}
+#navbar a{
+    text-decoration: none;
+}
+/*Phần main*/
+.main{
+    overflow: hidden;
+}
+/*Phần slideshow*/
+.slideshow{
+    max-width: 100%;
+    float: left;
+}
+
+/*Phần nội dung*/
+.noidung .row{
+    margin-top: 20px;
+}
+.col-md-4:hover{
+    border: 1px solid red;
+}
+.col-md-4{
+    background: #fff;
+    max-width: 32.5%;
+    margin: 10px 3px;
+    border: 1px solid #d7cdc6;
+    padding-bottom: 25px;
+}
+.content{
+    padding: 20px 0px;
+}
+/*.content h4{*/
+/*float: left;*/
+/*}*/
+.price{padding: 0px 15px }
+.detail{
+    padding: 10px 0 0px 35%;
+}
+.col-md-9{
+    margin-bottom: 20em;
+}
+.col-md-9 img{
+    margin-bottom: 20px;
+}
+.col-md-9 a{
+    margin-top: 15px;
+}
+.col-md-4 a{
+    padding: 0 13px;
+}
+.col-md-4 img{
+    width: 90%;margin-bottom: 8%;border: 1px solid #c0c0c0;margin-top: 5px; height: 170px;
+}
+/*phần block*/
+.block{
+    margin: 40px 0px;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px 0px;
+}
+.block-tittle{font-weight: 700;color: #545351;  margin-bottom: 10px}
+/*block thanh toán*/
+.thanhtoan{
+    float: left;
+    margin-right: 80px;    padding-left: 15px;
+    padding-top: 20px;
+}
+.visa{width:53px;height:39px;background: url("../img/icon-43bcc.png") 0 -7894px;float: left}
+.master{width:53px;height:39px;background: url("../img/icon-43bcc.png")  0 -7521px;float: left}
+.smartlink{width:53px;height:39px;background: url("../img/icon-43bcc.png")0 -8708px;  float: left;}
+.vn123pay{width:53px;height:39px;background: url("../img/icon-43bcc.png")0 -6432px;  float: left;}
+
+
+/*block chứng nhận*/
+.chungnhan{
+    float: left;
+    margin-right: 50px;border-left: 1px dotted #b7b7b7;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.chungnhan .block-item{padding-bottom: 110px}
+.dec{float: left}.tindung{float: left}
+.thongbao img{width: 45%;float: left;}
+
+/*block giao hàng*/
+.giaohang{
+    float: left;border-left: 1px dotted #b7b7b7;    padding-left: 15px;
+    padding-top: 20px;
+}
+.giaohang .block-item{
+    padding-bottom: 60px;
+}
+.logo-vnpost{
+    width: 55px;
+    height: 45px;
+    margin-right: 0;
+    display: inline-block;
+    background: url("../img/sprite-logo-v2.png") 0 0 no-repeat
+}
+.logo-ghn{
+    background-size: 110px 88%!important;
+    width: 110px;
+    height: 45px;
+    margin-right: 0;
+    display: inline-block;
+    background: url("../img/ghn.jpg") 0 0 no-repeat;
+    border-radius:7px;
+}
+.logo-viettelpost{
+    width: 55px;
+    height: 45px;
+    margin-right: 0;
+    display: inline-block;
+    background: url("../img/sprite-logo-v2.png") -123px 0 no-repeat
+}
+.logo-lex{
+    background: url("../img/lex_logo.png") center no-repeat #F8F8F8;
+    width: 95px;height: 45px;display: inline-block;
+    box-shadow: 0px 1px 3px #999;
+}
+
+/*phần footer*/
+.footer{
+    background: url("../img/pattern.jpg");
+    border-top: 4px solid #d8d6d3;
+}
+.footer .container{
+    padding-bottom: 40px;
+}
+.row_top{
+    padding: 25px 0 25px 50px;
+}
+
+.info_left{
+    float: left;
+    padding-left: 50px;
+}
+.info_right{
+    float: right;
+    padding-right: 150px;
+}
+.footer span{
+    color: #898989;
+}
+
